@@ -54,5 +54,10 @@
         android:background="@android:color/background_light"
         app:srcCompat="@mipmap/search_button" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_marginTop="150dp" />
+
 
 </RelativeLayout>
