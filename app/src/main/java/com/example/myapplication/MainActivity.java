@@ -88,5 +88,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        slr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent redirect_sellr = new Intent(MainActivity.this,seller_profile.class);
+                startActivity(redirect_sellr);
+            }
+        });
+
+
+
+
     }
 }
