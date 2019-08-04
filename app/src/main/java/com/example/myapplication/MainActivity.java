@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button srch,food,prf,reg;
+    Button srch,food,prf,reg,flt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         food = findViewById(R.id.food);
         prf = findViewById(R.id.viwe_profile);
         reg = findViewById(R.id.reg);
+        flt = findViewById(R.id.filter);
 
         srch.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent redirect_reg = new Intent(MainActivity.this,login.class);
                 startActivity(redirect_reg);
+
+            }
+        });
+
+        flt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent redirect_filter = new Intent(MainActivity.this,Filter.class);
+                startActivity(redirect_filter);
 
             }
         });
