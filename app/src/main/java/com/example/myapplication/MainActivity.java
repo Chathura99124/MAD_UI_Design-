@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button srch,food,prf,reg,flt,slr;
+    Button srch,food,prf,reg,flt,slr,log;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         reg = findViewById(R.id.reg);
         flt = findViewById(R.id.filter);
         slr = findViewById(R.id.seller);
+        log = findViewById(R.id.login);
+
+
 
         srch.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,13 +69,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        slr.setOnClickListener(new View.OnClickListener() {
+
+        log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent redirect_seller = new Intent(MainActivity.this,seller_profile.class);
-                startActivity(redirect_seller);
+                Intent redirect_login = new Intent(MainActivity.this,log.class);
+                startActivity(redirect_login);
             }
         });
+
 
     }
 }
