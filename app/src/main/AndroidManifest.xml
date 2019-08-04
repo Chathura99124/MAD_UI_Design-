@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".log"></activity>
+        <activity android:name=".maps"></activity>
+        <activity android:name=".log" />
         <activity android:name=".seller_profile" />
         <activity android:name=".Filter" />
         <activity android:name=".login" />
