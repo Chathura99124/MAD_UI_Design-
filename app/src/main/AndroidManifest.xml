@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".deliver"></activity>
+        <activity android:name=".Add_Foods"></activity>
+        <activity android:name=".deliver" />
         <activity android:name=".order" />
         <activity android:name=".maps" />
         <activity android:name=".log" />
@@ -17,7 +18,6 @@
         <activity android:name=".Filter" />
         <activity android:name=".login" />
         <activity android:name=".User" />
-        <activity android:name=".Add_Foods" />
         <activity android:name=".search" />
         <activity android:name=".MainActivity">
             <intent-filter>
