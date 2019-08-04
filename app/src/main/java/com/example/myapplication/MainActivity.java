@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button srch;
+    Button srch,food;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,12 +17,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         srch = findViewById(R.id.srch);
+        food = findViewById(R.id.food);
 
         srch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent redirect_srch = new Intent(MainActivity.this,search.class);
                 startActivity(redirect_srch);
+            }
+        });
+
+        food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent redirect_food = new Intent(MainActivity.this,Add_Foods.class);
+                startActivity(redirect_food);
+
             }
         });
 
