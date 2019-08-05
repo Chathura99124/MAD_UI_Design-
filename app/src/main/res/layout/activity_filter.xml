@@ -11,7 +11,7 @@
     tools:context=".Filter">
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -25,7 +25,7 @@
         android:inputType="number" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/Ratings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
