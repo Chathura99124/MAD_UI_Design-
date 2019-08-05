@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="add_your_shop">Add Your Shop</string>
+    <string name="add_food">Add Foods</string>
     <string name="textview2">TextView</string>
     <string name="textview4">TextView</string>
     <string name="textview3">TextView</string>
