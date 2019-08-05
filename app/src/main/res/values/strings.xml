@@ -8,4 +8,7 @@
     <string name="textview5">TextView</string>
     <string name="name">Name</string>
     <string name="textview" />
+    <string name="button">Button</string>
+
+    <string name="feed">Best Place</string>
 </resources>
