@@ -11,12 +11,28 @@
     android:paddingRight="16dp"
     tools:context=".Filter">
 
+    <TextView
+        android:id="@+id/heading_label3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="Filter your result"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
     <CheckBox
         android:id="@+id/price_range"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Price Range" />
+        android:text="Price Range"
+        android:textColor="#FFFAFA" />
 
     <EditText
         android:id="@+id/editText"
@@ -30,7 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Ratings" />
+        android:text="Ratings"
+        android:textColor="#F8F7F7" />
 
     <Spinner
         android:id="@+id/spinner8"
@@ -42,7 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Type" />
+        android:text="Type"
+        android:textColor="#FDFDFE" />
 
     <Spinner
         android:id="@+id/spinner2"
@@ -54,14 +72,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="facilities" />
+        android:text="facilities"
+        android:textColor="#FDFDFE" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:gravity="center"
-        android:text="single room" />
+        android:text="single room"
+        android:textSize="18dp" />
 
     <Spinner
         android:id="@+id/spinner"
