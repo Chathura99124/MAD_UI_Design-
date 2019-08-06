@@ -90,6 +90,18 @@
                 android:text="login" />
 
             <Button
+                android:id="@+id/filter"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="filter" />
+
+            <Button
                 android:id="@+id/seller"
                 android:layout_width="192dp"
                 android:layout_height="wrap_content"
@@ -136,18 +148,6 @@
                 android:layout_marginRight="0dp"
                 android:layout_marginBottom="0dp"
                 android:text="Add Foods" />
-
-            <Button
-                android:id="@+id/filter"
-                android:layout_width="192dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="0dp"
-                android:layout_marginBottom="0dp"
-                android:text="filter" />
 
             <Button
                 android:id="@+id/UDFoods"
