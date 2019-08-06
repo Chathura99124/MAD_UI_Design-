@@ -22,4 +22,6 @@
     <string name="line_2">Address line 2</string>
     <string name="p_oder">place an order</string>
     <string name="d_oder">delete an order</string>
+    <string name="button" />
+    <string name="feed" />
 </resources>
