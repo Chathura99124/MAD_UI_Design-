@@ -13,4 +13,9 @@
     <string name="date">Date</string>
     <string name="time">Time</string>
     <string name="submit">Submit</string>
+    <string name="brd_details">Boarding details</string>
+    <string name="brd_name">Boarding name</string>
+    <string name="address">Address</string>
+    <string name="description">Description</string>
+    <string name="app_make">Make Appoinment</string>
 </resources>
