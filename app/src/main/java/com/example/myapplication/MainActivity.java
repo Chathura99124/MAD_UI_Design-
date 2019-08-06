@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button srch,food,prf,reg,flt,slr,log,map,shop,UDFoods,UDShop,feed;
+    Button srch,food,prf,reg,flt,slr,log,map,shop,UDFoods,UDShop,feed,prof;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         UDFoods = findViewById(R.id.UDFoods);
         UDShop = findViewById(R.id.UDShop);
         feed = findViewById(R.id.feed);
-
+        prof = findViewById(R.id.prof);
 
         srch.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,6 +128,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        prof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent redirect_prof = new Intent(MainActivity.this,food_profile.class);
+                startActivity(redirect_prof);
+            }
+        });
 
     }
 }
