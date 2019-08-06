@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="User Name"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -66,6 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="First Name"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -84,6 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Last Name"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -102,6 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Email"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -120,6 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Contact No"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -138,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Password"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
@@ -155,6 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Re type Password"
+                android:textColor="#FDFDFE"
                 android:textSize="24sp"
                 app:fontFamily="sans-serif" />
 
