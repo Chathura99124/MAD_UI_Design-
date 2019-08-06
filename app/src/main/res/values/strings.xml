@@ -18,4 +18,10 @@
     <string name="address">Address</string>
     <string name="description">Description</string>
     <string name="app_make">Make Appoinment</string>
+    <string name="line_1">Address line 1</string>
+    <string name="line_2">Address line 2</string>
+    <string name="p_oder">place an order</string>
+    <string name="d_oder">delete an order</string>
+    <string name="button" />
+    <string name="feed" />
 </resources>
