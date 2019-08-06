@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".login">
+    tools:context=".register">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,19 +21,22 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="User Name" />
+                android:layout_marginTop="16dp"
+                android:text="User Name"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
-                android:id="@+id/editText8"
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -46,8 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:gravity="center"
-                android:text="First Name" />
+                android:text="First Name"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText9"
@@ -63,8 +67,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Last Name" />
+                android:text="Last Name"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText7"
@@ -80,8 +85,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Email" />
+                android:text="Email"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText11"
@@ -97,8 +103,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Contact No" />
+                android:text="Contact No"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText12"
@@ -114,8 +121,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Password" />
+                android:text="Password"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText14"
@@ -130,8 +138,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Re type Password" />
+                android:text="Re type Password"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
 
             <EditText
                 android:id="@+id/editText15"
@@ -145,6 +154,7 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 app:srcCompat="@android:drawable/ic_menu_save" />
         </LinearLayout>
     </ScrollView>

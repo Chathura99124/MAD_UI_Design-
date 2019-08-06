@@ -21,7 +21,7 @@
         <activity android:name=".log" />
         <activity android:name=".seller_profile" />
         <activity android:name=".Filter" />
-        <activity android:name=".login" />
+        <activity android:name=".register" />
         <activity android:name=".User" />
         <activity android:name=".search" />
         <activity android:name=".MainActivity">

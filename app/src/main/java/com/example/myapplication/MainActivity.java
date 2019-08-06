@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent redirect_reg = new Intent(MainActivity.this,login.class);
+                Intent redirect_reg = new Intent(MainActivity.this, register.class);
                 startActivity(redirect_reg);
 
             }

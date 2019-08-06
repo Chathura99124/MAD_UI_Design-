@@ -5,6 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical"
     tools:context=".log">
 
@@ -16,6 +17,7 @@
         android:layout_marginLeft="46dp"
         android:layout_marginTop="200dp"
         android:text="User name"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,6 +42,8 @@
         android:layout_marginLeft="46dp"
         android:layout_marginTop="65dp"
         android:text="Password"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHighlight="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -63,6 +67,7 @@
         android:layout_marginTop="41dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
+        android:background="@color/colorAccent"
         android:text="login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText17" />
