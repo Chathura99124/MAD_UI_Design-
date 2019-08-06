@@ -35,4 +35,7 @@
     <string name="menu_share" />
     <string name="menu_send" />
     <string name="action_settings" />
+    <string name="bu">Burger Plus</string>
+    <string name="beFO">Best Place Foods</string>
+    <string name="p1">LKR 550</string>
 </resources>
