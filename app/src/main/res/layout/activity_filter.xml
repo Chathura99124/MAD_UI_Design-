@@ -11,11 +11,11 @@
     tools:context=".Filter">
 
     <CheckBox
-        android:id="@+id/price"
+        android:id="@+id/price_range"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Price" />
+        android:text="Price Range" />
 
     <EditText
         android:id="@+id/editText"
@@ -71,6 +71,7 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#6171CA"
         android:text="Search" />
 
 </LinearLayout>
