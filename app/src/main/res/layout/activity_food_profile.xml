@@ -210,7 +210,7 @@
         android:textColor="#FFEB3B"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:fontFamily="cursive"
+        app:fontFamily="@font/nunito_semibold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

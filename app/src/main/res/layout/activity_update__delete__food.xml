@@ -28,8 +28,8 @@
 
     <TextView
         android:id="@+id/UDS_Title"
-        android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_width="309dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
@@ -40,7 +40,7 @@
         android:textColor="#FFEB3B"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:fontFamily="cursive"
+        app:fontFamily="@font/nunito_semibold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.759"
