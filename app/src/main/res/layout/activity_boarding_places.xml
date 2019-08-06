@@ -71,15 +71,17 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif"
-                android:text="@string/sort" />
+                android:text="@string/sort"
+                android:drawableStart="@drawable/sort_icon"/>
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:drawableStart="@drawable/filter_icon"
                 android:fontFamily="sans-serif"
-                android:text="@string/filter" />
+                android:text="@string/filter"
 
             <Button
                 android:id="@+id/button8"
@@ -87,7 +89,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif"
-                android:text="@string/map" />
+                android:text="@string/map"
+                android:drawableStart="@drawable/map_icon"/>
         </LinearLayout>
 
         <LinearLayout
