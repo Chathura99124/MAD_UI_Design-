@@ -24,9 +24,4 @@
     <string name="d_oder">delete an order</string>
     <string name="button" />
     <string name="feed" />
-    <string name="add_comment">Add Comment</string>
-    <string name="brd_places">Boarding Places</string>
-    <string name="sort">Sort</string>
-    <string name="filter">Filter</string>
-    <string name="map">Map</string>
 </resources>
