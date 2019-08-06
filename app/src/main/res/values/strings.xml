@@ -24,4 +24,15 @@
     <string name="d_oder">delete an order</string>
     <string name="button" />
     <string name="feed" />
+    <string name="price" />
+    <string name="burger" />
+    <string name="add_comment" />
+    <string name="food_profile" />
+    <string name="menu_home" />
+    <string name="menu_gallery" />
+    <string name="menu_slideshow" />
+    <string name="menu_tools" />
+    <string name="menu_share" />
+    <string name="menu_send" />
+    <string name="action_settings" />
 </resources>

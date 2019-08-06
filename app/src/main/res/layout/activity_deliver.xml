@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="174dp"
         android:cropToPadding="true"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:srcCompat="@drawable/food_bu" />
 
     <TextView
         android:id="@+id/textView21"

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         UDFoods = findViewById(R.id.UDFoods);
         UDShop = findViewById(R.id.UDShop);
         feed = findViewById(R.id.feed);
-        prof = findViewById(R.id.prof);
+
 
         srch.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,13 +128,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        prof.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent redirect_prof = new Intent(MainActivity.this,food_profile.class);
-                startActivity(redirect_prof);
-            }
-        });
+
 
     }
 }
