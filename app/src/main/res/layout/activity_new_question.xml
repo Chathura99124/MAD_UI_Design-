@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wood"
+    android:background="@drawable/s"
     tools:context=".activity_new_question">
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/newQ"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="#FFC107"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +71,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background= "#4B575E"
+        android:background="#4B575E"
         android:text="@string/delete"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,7 +91,7 @@
         android:layout_marginRight="8dp"
         android:background="#284455   "
         android:text="@string/category"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="#F3EDED"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/categoryDes"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,7 @@
         android:layout_marginRight="8dp"
         android:background="#284455   "
         android:text="@string/qSuccess"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="#F3EEEE"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +140,7 @@
         tools:ignore="DuplicateIds" />
 
     <ImageView
-        android:id="@+id/ right"
+        android:id="@+id/right"
         android:layout_width="198dp"
         android:layout_height="156dp"
         android:layout_marginStart="8dp"

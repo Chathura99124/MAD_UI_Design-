@@ -38,4 +38,8 @@
     <string name="qSuccess">Question</string>
     <string name="right"></string>
     <string name="findQ"></string>
+    <string name="bu">Unkonwn</string>
+    <string name="make_appoinment">Unkonwn</string>
+    <string name="contact_no">Unkonwn</string>
+    <string name="submit">Unkonwn</string>submit
 </resources>
