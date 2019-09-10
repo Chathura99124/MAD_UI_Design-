@@ -36,4 +36,18 @@
     <string name="add_image">Add Images</string>
     <string name="cancel">Cancel</string>
     <string name="add">Add</string>
+    <string name="beFO" />
+    <string name="bu" />
+    <string name="p1" />
+    <string name="food_profile" />
+    <string name="menu_home" />
+    <string name="menu_gallery" />
+    <string name="menu_slideshow" />
+    <string name="menu_tools" />
+    <string name="menu_share" />
+    <string name="menu_send" />
+    <string name="action_settings" />
+    <string name="p12">LKR 550</string>
+    <string name="bu2">Burger Plus</string>
+    <string name="beFO1">Best Place Foods</string>
 </resources>

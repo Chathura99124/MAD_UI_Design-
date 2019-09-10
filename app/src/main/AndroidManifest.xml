@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".food_profile"></activity>
+        <activity android:name=".shop_profile"></activity>
+        <activity android:name=".food_profile" />
         <activity android:name=".Food_feed" />
         <activity android:name=".Update_Delete_Shop" />
         <activity android:name=".Update_Delete_Food" />
