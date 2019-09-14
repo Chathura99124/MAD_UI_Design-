@@ -88,7 +88,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/dFoods"
+        android:id="@+id/ADD_SHOP"
         android:layout_width="126dp"
         android:layout_height="32dp"
         android:layout_marginStart="8dp"

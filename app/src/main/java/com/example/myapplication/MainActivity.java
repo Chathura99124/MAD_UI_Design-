@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.myapplication.Database.DBHelper;
+
 public class MainActivity extends AppCompatActivity {
+
+    DBHelper mydb;
 
     Button srch,food,prf,reg,flt,slr,log,map,shop,UDFoods,UDShop,feed,prof,deli,profileF,profileS;
 
@@ -15,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mydb = new DBHelper(this);
+
 
         srch = findViewById(R.id.srch);
         food = findViewById(R.id.food);

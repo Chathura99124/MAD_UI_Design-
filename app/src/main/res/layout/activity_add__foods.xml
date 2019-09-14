@@ -8,7 +8,7 @@
     tools:context=".Add_Foods">
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/EDIT_DISCRIPTION"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.084" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/EDIT_ADDRESS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.37" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/EDIT_COMPNAY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.197" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/EDIT_NAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -153,7 +153,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT_DISCRIPTION"
         app:layout_constraintVertical_bias="0.003" />
 
     <Button
@@ -176,7 +176,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/dFoods"
+        android:id="@+id/ADD_SHOP"
         android:layout_width="87dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"

@@ -8,7 +8,7 @@
     tools:context=".Add_Foods">
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/EDIT_DISCRIPTION"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -19,6 +19,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#032FCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -50,7 +51,7 @@
         tools:text="Add Yor Shop " />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/EDIT_ADDRESS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -61,6 +62,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#032FCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -69,7 +71,7 @@
         app:layout_constraintVertical_bias="0.452" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/EDIT_COMPNAY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -80,6 +82,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#032FCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -88,7 +91,7 @@
         app:layout_constraintVertical_bias="0.37" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/EDIT_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -99,6 +102,8 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#032FCF"
+        android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -107,7 +112,7 @@
         app:layout_constraintVertical_bias="0.203" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/EDIT_NAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,6 +123,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#032FCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -163,7 +169,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/dFoods"
+        android:id="@+id/ADD_SHOP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
